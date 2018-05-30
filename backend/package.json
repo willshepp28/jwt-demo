@@ -9,9 +9,15 @@
   "author": "Will Sheppard",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^2.0.1",
     "body-parser": "^1.18.3",
+    "bookshelf": "^0.13.3",
+    "bookshelf-secure-password": "^3.1.0",
     "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
     "express": "^4.16.3",
-    "jsonwebtoken": "^8.2.1"
+    "jsonwebtoken": "^8.2.1",
+    "knex": "^0.14.6",
+    "pg": "^7.4.3"
   }
 }
